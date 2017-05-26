@@ -1,4 +1,4 @@
-body {
+body{
     width:100%;
     margin:0;
     padding:0;
@@ -8,17 +8,27 @@ body {
     background:#9F737C;
 }
 
-#container {
+#container{
     width: 80%;
     margin: 0px auto;
     padding: 30px;
     background: #fff;
 }
 
-header {
+header{
     padding: 30px;
     background: #333;
     color: #FFF;
+}
+
+nav{
+    text-align: center;
+    padding: 5px;
+}
+
+nav ul, nav li{
+    list-style-type: none;
+    display: inline;
 }
 
 dl.main dt{
@@ -26,7 +36,12 @@ dl.main dt{
     padding: 10px;
 }
 
-footer {
+dl.main dd{
+    font-size: 150%;
+    padding: 5px;
+}
+
+footer{
     font: bold 80%/1em Arial, Helvetica, sans-serif;
     color: #FFF;
     text-align: center;
