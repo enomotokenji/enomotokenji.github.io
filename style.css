@@ -28,13 +28,13 @@ nav{
 }
 
 nav ul, nav li{
-    color: #fff;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 200%
     list-style-type: none;
     text-decoration: none;
     display: inline;
+    color: #9F737C;
 }
 
 dl.main dt{
