@@ -43,6 +43,7 @@ dl.main dt{
 
 dl.main dd{
     font-size: 150%;
+    margin: 5px 5px;
     padding: 10px;
 }
 
