@@ -23,13 +23,12 @@ header{
 
 nav{
     background: #000;
-    color: #fff;
     text-align: center;
     padding: 5px;
 }
 
 nav ul, nav li{
-    /*color: #fff;*/
+    color: #fff;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 200%
@@ -38,7 +37,7 @@ nav ul, nav li{
 }
 
 dl.main dt{
-    font-size: 200%;
+    font-size: 30px;
     padding: 10px;
 }
 
