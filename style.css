@@ -32,12 +32,12 @@ nav ul, nav li{
 }
 
 dl.main dt{
-    font-size: 150%;
+    font-size: 200%;
     padding: 10px;
 }
 
 dl.main dd{
-    font-size: 200%;
+    font-size: 150%;
     padding: 5px;
 }
 
