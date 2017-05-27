@@ -28,10 +28,10 @@ nav{
 }
 
 nav ul, nav li{
-    margin-left: 5px;
-    margin-right: 5px;
-    color: #FFF;
-    font-size: 130%
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 150%
     list-style-type: none;
     display: inline;
 }
@@ -44,7 +44,7 @@ dl.main dt{
 dl.main dd{
     font-size: 150%;
     line-height: 120%;
-    padding: 10px;
+    padding: 5px;
 }
 
 footer{
