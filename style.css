@@ -30,11 +30,11 @@ nav{
 nav ul li{
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 200%;
+    font-size: 150%;
     list-style-type: none;
     text-decoration: none;
     display: inline;
-    color: #9F737C;
+    color: #fff;
 }
 
 dl.main dt{
