@@ -25,7 +25,6 @@ nav{
     background: #000;
     text-align: center;
     padding: 0px;
-    color: #000;
 }
 
 ul.nav{
@@ -33,7 +32,6 @@ ul.nav{
     background: #FFF;
     padding-left: 10px;
     padding-right: 10px;
-    /*color: #FFF;*/
 }
 
 nav ul li{
@@ -46,7 +44,7 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 dl.main dt{
