@@ -42,7 +42,7 @@ nav ul li{
     margin-right: 10px;
     font-size: 150%;
     /*list-style-type: none;*/
-    display: inline;
+    /*display: inline;*/
 }
 
 dl.main dt{
