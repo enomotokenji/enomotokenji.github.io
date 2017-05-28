@@ -54,6 +54,10 @@ dl.main dd{
     padding: 5px;
 }
 
+dd ul li{
+    color: #9F7;
+}
+
 footer{
     font: bold 80%/1em Arial, Helvetica, sans-serif;
     color: #FFF;
