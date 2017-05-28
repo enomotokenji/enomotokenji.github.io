@@ -34,7 +34,6 @@ ul.nav{
     padding-left: 10px;
     padding-right: 10px;
     /*color: #FFF;*/
-    /*text-decoration: none;*/
 }
 
 nav ul li{
@@ -42,7 +41,12 @@ nav ul li{
     margin-right: 10px;
     font-size: 150%;
     list-style-type: none;
-    /*display: inline;*/
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
 }
 
 dl.main dt{
