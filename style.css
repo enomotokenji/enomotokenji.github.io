@@ -28,7 +28,8 @@ nav{
 }
 
 ul.nav{
-    width: 100%;
+    /*width: 100%;*/
+    background: #FFF;
     color: #FFF;
     text-decoration: none;
 }
