@@ -25,11 +25,10 @@ nav{
     background: #000;
     text-align: center;
     padding: 5px;
-    color: #FFF;
 }
 
-nav ul{
-    color: #fff;
+ul.nav{
+    color: #FFF;
     text-decoration: none;
 }
 
@@ -38,9 +37,7 @@ nav ul li{
     margin-right: 15px;
     font-size: 150%;
     list-style-type: none;
-    text-decoration: none;
     display: inline;
-    color: #fff;
 }
 
 dl.main dt{
