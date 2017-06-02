@@ -120,15 +120,29 @@ body {
 }
 
 .site-description {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     color: #d0d0d0;
     font-size: 1.6rem;
 }
 
 .site-description-mail-address {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     color: #d0d0d0;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
+}
+
+.sns-icon {
+    display: inline-block;
+    padding: 10px;
+}
+
+.sns-icon:hover {
+    opacity: 0.9;
+}
+
+.sns-icons .sns-icon {
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .buttons .button {
