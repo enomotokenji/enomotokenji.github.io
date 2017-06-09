@@ -218,21 +218,6 @@ body {
     width: 50%;
 }
 
-
-/*.work-box::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 50%;
-    height: 100%;
-    background-image: url('../images/tree.jpg');
-    background: no-repeat;
-    background-size: 100%;
-    opacity: 0.2;
-    transform: scaleX(-1);
-}*/
-
 .work-image {
     display: block;
     width: 100%;
@@ -307,104 +292,6 @@ body {
 .link:hover {
     text-decoration: underline;
 }
-
-
-/*.works {
-    padding: 80px 0;
-    background-color: #383634;
-}
-
-.works-wrapper {
-    display: table;
-    width: 80%;
-    margin-top: 60px;
-    margin-left: 10%;
-    margin-right: 10%;
-    table-layout: fixed;
-}
-
-.work-box {
-    position: relative;
-    display: table-cell;
-}
-
-.work-image {
-    display: block;
-    width: 100%;
-    margin: 0 0 60%;
-}
-
-.work-description {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    height: 50%;
-    overflow-y: auto;
-}
-
-
-.work-description-inner {
-    display: table;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-}
-
-.work-text {
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 1.2rem;
-    line-height: 2;
-}
-
-.work-text .button {
-    width: 60%;
-    margin-top: 20px;
-    padding: 3px;
-}
-
-
-.work-box::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    background: no-repeat;
-    background-size: 100% 100%;
-    opacity: 0.2;
-    transform: scaleY(-1);
-}
-
-
-.work-box.tree::after {
-    background-image: url('../images/tree.jpg');
-}
-
-.work-box.building::after {
-    background-image: url('../images/building.jpg');
-}
-
-.work-box.lake::after {
-    background-image: url('../images/lake.jpg');
-}
-
-.work-box.sky::after {
-    background-image: url('../images/sky.jpg');
-}
-
-.work-box:nth-child(odd) .work-image {
-    margin: 60% 0 0;
-}
-
-.work-box:nth-child(odd) .work-description,
-.work-box:nth-child(odd)::after {
-    top: 0;
-}
-*/
 
 
 /* --------------------------------
@@ -579,12 +466,6 @@ body {
     .pub-title {
         font-size: 1.8rem;
     }
-    /*.work-box::after {
-        top: 0;
-        height: 100%;
-        background-size: cover;
-        transform: none;
-    }*/
     /* --- skills --- */
     .skills-wrapper,
     .skill-box {
@@ -610,47 +491,3 @@ body {
         width: 80%;
     }
 }
-
-
-/* --------------------------------
- * challenge
- *
- * 31行目からの.heading::before, .heading::afterの
- * スタイルをコメントアウトしてから適用してください。
- * -------------------------------- */
-
-
-/*
-.heading::before,
-.heading::after {
-  content: '';
-  display: inline-block;
-  width: 0.3em;
-  height: 0.3em;
-  margin: 0 0.5em;
-  border: 1px solid;
-  vertical-align: 0.2em;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-.work-box {
-  overflow: hidden;
-}
-.work-image {
-  transition: -webkit-transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out;
-}
-.work-box:nth-child(odd) .work-image {
-  -webkit-transform-origin: top center;
-  transform-origin: top center;
-}
-.work-box:nth-child(even) .work-image {
-  -webkit-transform-origin: bottom center;
-  transform-origin: bottom center;
-}
-.work-box:hover .work-image {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-*/
