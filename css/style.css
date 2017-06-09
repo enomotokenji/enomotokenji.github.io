@@ -441,24 +441,24 @@ body {
         font-size: 5rem;
     }
     /* --- about --- */
-    .about-text {
+    .bio-text {
         font-size: 1.4rem;
         line-height: 1.8;
     }
     /* --- works --- */
-    .works-wrapper,
-    .work-box {
+    .pub-wrapper,
+    .pub-box {
         display: block;
     }
-    .work-cell {
+    .pub-cell {
         display: block;
         width: 100%;
     }
-    .work-image {
+    .pub-image {
         /display: none;
         width: 100%;
     }
-    .work-description {
+    .pub-i-description {
         position: relative;
         left: auto;
         width: 100%;
