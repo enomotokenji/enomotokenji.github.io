@@ -347,6 +347,10 @@ a {
     margin: 10px 0 10px;
 }
 
+.skill-icon:hover {
+    opacity: 0.5;
+}
+
 .skill-title {
     margin: 0 20px 20px;
     font-size: 2rem;
@@ -501,6 +505,9 @@ a {
         font-size: 5rem;
         line-height: 92px;
     }*/
+    .skill-icon:hover {
+        opacity: 1;
+    }
     .skill-text {
         margin: 0;
     }
