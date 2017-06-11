@@ -468,7 +468,10 @@ a {
     /* --- about --- */
     .bio-text {
         font-size: 1.4rem;
-        line-height: 1.8;
+        /line-height: 1.8;
+    }
+    .edu-text {
+        font-size: 1.4rem;
     }
     /* --- works --- */
     .pub-wrapper,
