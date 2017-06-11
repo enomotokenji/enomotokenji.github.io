@@ -296,7 +296,7 @@ a {
 }
 
 .link {
-    color: #fff;
+    color: inherit;
     text-decoration: none;
 }
 
