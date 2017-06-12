@@ -345,10 +345,11 @@ a {
 .skill-icon {
     vertical-align: middle;
     margin: 10px 0 10px;
+    filter: grayscale(0.7);
 }
 
 .skill-icon:hover {
-    opacity: 0.7;
+    filter: none;
 }
 
 .skill-title {
@@ -503,15 +504,12 @@ a {
     .skill-box {
         margin: 40px auto;
     }
-    /*.skill-icon {
-        width: 100px;
-        height: 100px;
-        font-size: 5rem;
-        line-height: 92px;
-    }*/
-    .skill-icon:hover {
-        opacity: 1;
+    .skill-icon {
+        filter: none;
     }
+    /*.skill-icon:hover {
+        opacity: 1;
+    }*/
     .skill-text {
         margin: 0;
     }
