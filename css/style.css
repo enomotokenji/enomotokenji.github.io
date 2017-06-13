@@ -370,6 +370,9 @@ a {
     body {
         background-image: none;
     }
+    .skill-icon {
+        filter: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -440,9 +443,6 @@ a {
     }
     .skill-box {
         margin: 40px auto;
-    }
-    .skill-icon {
-        filter: none;
     }
     .skill-text {
         margin: 0;
