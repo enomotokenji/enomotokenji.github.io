@@ -175,6 +175,36 @@ a {
     margin: 10px;
 }
 
+.news {
+    margin: 20px 20% 20px;
+    height: 100px;
+}
+
+.news-title {
+    font-size: 2rem;
+}
+
+.news-contents {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.news-date {
+    display: table-cell;
+    width: 20%;
+    margin: 0;
+    padding: 5px;
+    border-right: 1px solid;
+}
+
+.news-description {
+    display: table-cell;
+    /width: 80%;
+    margin: 0;
+    padding: 5px;
+    text-align: left;
+}
+
 
 /* --------------------------------
  * about
