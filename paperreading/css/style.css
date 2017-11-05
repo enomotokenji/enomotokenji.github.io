@@ -52,16 +52,15 @@ a {
     /border-radius: 10px;
 }
 
-
-/*.blog-box:hover {
-    background: #f7f7f7;
-}*/
-
 .paper-title {
     font-size: 2rem;
     margin-bottom: 5px;
     /margin-left: 5px;
     /margin-right: 5px;
+}
+
+.paper-thum {
+    width: 100%;
 }
 
 .paper-thum:hover {
@@ -87,14 +86,11 @@ a {
     body {
         font-size: 1.3rem;
     }
-    .blog-box {
+    .paper-box {
         width: 90%;
         margin: 0 5% 5px;
     }
-    .blog-title {
+    .paper-title {
         font-size: 1.5rem;
-    }
-    .blog-abst {
-        font-size: 1.3rem;
     }
 }
