@@ -9,7 +9,6 @@ html {
 }
 
 body {
-    /background: #151515 url('../images/grandcanyon.jpg') no-repeat fixed left bottom;
     background-size: cover;
     color: #000;
     text-align: center;
@@ -42,7 +41,7 @@ a {
     background: #FFF;
 }
 
-.blog-box {
+.paper-box {
     display: inline-block;
     width: 600px;
     background: #FFF;
@@ -58,18 +57,11 @@ a {
     background: #f7f7f7;
 }*/
 
-.blog-title {
+.paper-title {
     font-size: 2rem;
     margin-bottom: 5px;
     /margin-left: 5px;
     /margin-right: 5px;
-}
-
-.blog-abst {
-    font-size: 1.6rem;
-    text-align: left;
-    margin-left: 5px;
-    margin-right: 5px;
 }
 
 .paper-thum:hover {
@@ -79,6 +71,11 @@ a {
 .paper-date {
     text-align: right;
     margin-top: 0;
+}
+
+.footer {
+    padding: 12px 0;
+    font-size: 1.3rem;
 }
 
 
