@@ -39,7 +39,7 @@ a {
 
 .container {
     width: 50%;
-    padding: 5% 2%;
+    /*padding: 2% 2%;*/
     margin: 0px;
     background: #FFF;
     float: left;
