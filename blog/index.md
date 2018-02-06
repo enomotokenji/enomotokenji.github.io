@@ -5,9 +5,11 @@ title: Blog
 
 ## Memo
 {% for post in site.posts %}
-<div class="blog-box">
-<a href="{{ post.url }}">{{ post.title }}</a>
+<a class="blog-box" href="{{ post.url }}">
+<div class="blog-title">
+{{ post.title }}
 </div>
+</a>
 {% endfor %}
 
 
