@@ -93,14 +93,14 @@ a.blog-box:hover {
 }
 
 .blog-title {
-    width: 80%;
+    width: 90%;
     float: left;
     font-size: 2rem;
     word-break: keep-all;
 }
 
 .blog-date {
-    width: 20%;
+    width: 10%;
     float: right;
     text-align: right;
     font-size: 1.5rem;
