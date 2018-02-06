@@ -91,7 +91,7 @@ a {
 
 .blog-title {
     position: relative;
-    /*display: inline-block;*/
+    display: inline-block;
     width: 90%;
     margin: auto;
     padding-bottom: 0px;
