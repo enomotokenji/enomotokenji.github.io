@@ -3,6 +3,7 @@ layout: default
 title: Blog
 ---
 
+
 ---
 [2018-02](/blog/contents/diary/2018-02-05.html)
 ---
@@ -11,11 +12,10 @@ title: Blog
 
 
 
-<!-- <section class="container"> -->
     <h2>DIARY</h2>
-    <a class="blog-box" href="contents/diary/2018-02-05.html">
+    <a class="blog-box" href="contents/diary/2018-02-05.html"> 
         <h2 class="blog-title">
-            2018-02-05
+        2018-02-05
         </h2>
     </a>
     <a class="blog-box" href="contents/diary/2018-02-04.html">
@@ -83,18 +83,15 @@ title: Blog
             2018-01-23
         </h2>
     </a>
-	<!-- </section> -->
 
-	<!-- <section class="container"> -->
     <h2>tech memo</h2>
     <a class="tech-box" href="contents/tech_memo/test.html">
         <h2 class="blog-title">
             test
         </h2>
     </a>
-    <!-- <a class="tech-box" href="contents/2017-06-14/index.html">
+    <a class="tech-box" href="contents/2017-06-14/index.html">
             <h2 class="blog-title">
                 リモートサーバのフォルダをローカルにマウントする(OSX)
             </h2>
-        </a> -->
-		<!-- </section> -->
+        </a>
