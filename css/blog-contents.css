@@ -91,15 +91,16 @@ a.blog-box:hover {
 }
 
 .blog-title {
-    width: 70%;
+    width: 80%;
     float: left;
     font-size: 2rem;
     word-wrap: break-word;
 }
 
 .blog-date {
-    width: 30%;
+    width: 20%;
     float: right;
+    text-align: right;
     font-size: 1.5rem;
 }
 
