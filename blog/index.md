@@ -3,9 +3,6 @@ layout: default
 title: Blog
 ---
 
-<header class="header">
-    <h1>MEMO</h1>
-</header>
 <!-- <section class="container"> -->
     <h2>DIARY</h2>
     <a class="blog-box" href="contents/diary/2018-02-05.html">
