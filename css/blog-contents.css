@@ -74,6 +74,21 @@ a {
     padding: 5px 10px;
 }
 
+.blog-box {
+    display: inline-block;
+    width: 200px;
+    background: #FFF;
+    margin-bottom: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #ebebeb;
+    border-radius: 10px;
+}
+
+.blog-box:hover {
+    background: #f7f7f7;
+}
+
 .blog-title {
     position: relative;
     /*display: inline-block;*/
