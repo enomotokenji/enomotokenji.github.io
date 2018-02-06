@@ -76,7 +76,7 @@ a {
 
 .blog-box {
     /*display: inline-block;*/
-    width: 200px;
+    width: 90%;
     background: #FFF;
     margin-bottom: 5px;
     border: solid;
@@ -97,6 +97,10 @@ a {
     padding-bottom: 0px;
     color: #000;
     font-size: 2rem;
+}
+
+.blog-date {
+
 }
 
 
