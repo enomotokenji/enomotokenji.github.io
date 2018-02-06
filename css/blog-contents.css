@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+/* --------------------------------
+ * base
+ * -------------------------------- */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #FFF;
+    background-size: cover;
+    color: #000;
+    text-align: left;
+    font-size: 1.4rem;
+    font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/* --------------------------------
+ * parts
+ * -------------------------------- */
+
+.blog-box {
+    width: 768px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 0 0 4px gray;
+}
+
+.blog-title {
+    position: relative;
+    /*display: inline-block;*/
+    width: 90%;
+    margin: auto;
+    padding-bottom: 0px;
+    color: #000;
+    font-size: 3rem;
+}
+
+.blog-title::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #000;
+}
+
+.header {
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    margin: 0% 5%;
+    padding-bottom: 0px;
+    color: #000;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #000;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    background: #FFF;
+}
+
+
+/*.blog-box {
+    display: inline-block;
+    width: 200px;
+    background: #FFF;
+    margin-bottom: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #ebebeb;
+    border-radius: 10px;
+}
+
+.blog-box:hover {
+    background: #f7f7f7;
+}
+
+.blog-title {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    margin: 5px;
+}
+
+.blog-abst {
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.tech-box {
+    display: inline-block;
+    width: 90%;
+    background: #FFF;
+    margin-bottom: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #ebebeb;
+    border-radius: 10px;
+}
+
+.tech-box:hover {
+    background: #f7f7f7;
+}
+*/
+
+
+/* --------------------------------
+ * smart phone
+ * -------------------------------- */
+
+@media (max-width: 768px) {
+    body {
+        font-size: 1.3rem;
+    }
+    .blog-box {
+        width: 90%;
+        margin: 0 5% 5px;
+    }
+    .blog-title {
+        font-size: 2rem;
+    }
+    .blog-abst {
+        font-size: 1.3rem;
+    }
+}

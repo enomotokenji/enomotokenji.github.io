@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/* --------------------------------
+ * base
+ * -------------------------------- */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #FFF url('../images/grandcanyon.jpg') no-repeat fixed left bottom;
+    background-size: cover;
+    color: #000;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/* --------------------------------
+ * parts
+ * -------------------------------- */
+
+.header {
+    color: #000;
+}
+
+.container {
+    width: 50%;
+    /*padding: 2% 2%;*/
+    margin: 0px;
+    background: #FFF;
+    float: left;
+}
+
+.blog-box {
+    display: inline-block;
+    width: 200px;
+    background: #FFF;
+    margin-bottom: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #ebebeb;
+    border-radius: 10px;
+}
+
+.blog-box:hover {
+    background: #f7f7f7;
+}
+
+.blog-title {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    margin: 5px;
+}
+
+.blog-abst {
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.tech-box {
+    display: inline-block;
+    width: 90%;
+    background: #FFF;
+    margin-bottom: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #ebebeb;
+    border-radius: 10px;
+}
+
+.tech-box:hover {
+    background: #f7f7f7;
+}
+
+
+/* --------------------------------
+ * smart phone
+ * -------------------------------- */
+
+@media (max-width: 768px) {
+    body {
+        font-size: 1.3rem;
+    }
+    .blog-box {
+        width: 90%;
+        margin: 0 5% 5px;
+    }
+    .blog-title {
+        font-size: 1.5rem;
+    }
+    .blog-abst {
+        font-size: 1.3rem;
+    }
+}
