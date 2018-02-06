@@ -33,6 +33,14 @@ a {
  * parts
  * -------------------------------- */
 
+#header .header-fix {
+    position: fixed;
+    top: 0px;
+	width: 100%;
+	height: 50px;
+	background: 000;
+}
+
 .blog-box {
     width: 768px;
     margin: auto;
