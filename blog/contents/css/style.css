@@ -33,6 +33,32 @@ a {
  * parts
  * -------------------------------- */
 
+.blog-box {
+    width: 768px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 0 0 4px gray;
+}
+
+.blog-title {
+    position: relative;
+    /*display: inline-block;*/
+    width: 90%;
+    margin: auto;
+    padding-bottom: 0px;
+    color: #000;
+    font-size: 3rem;
+}
+
+.blog-title::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #000;
+}
+
 .header {
     position: relative;
     display: inline-block;
@@ -53,11 +79,12 @@ a {
 
 .container {
     width: 90%;
-    margin: 0% 5%;
+    margin: auto;
     background: #FFF;
 }
 
-.blog-box {
+
+/*.blog-box {
     display: inline-block;
     width: 200px;
     background: #FFF;
@@ -97,6 +124,7 @@ a {
 .tech-box:hover {
     background: #f7f7f7;
 }
+*/
 
 
 /* --------------------------------
@@ -112,7 +140,7 @@ a {
         margin: 0 5% 5px;
     }
     .blog-title {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .blog-abst {
         font-size: 1.3rem;
