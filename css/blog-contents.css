@@ -96,17 +96,18 @@ a {
     margin: auto;
     padding-bottom: 0px;
     color: #000;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
-.blog-title::before {
+
+/*.blog-title::before {
     content: '';
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     border-bottom: 1px solid #000;
-}
+}*/
 
 .header {
     position: relative;
