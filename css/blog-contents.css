@@ -84,7 +84,6 @@ a {
     border-width: 1px;
     border-color: #ebebeb;
     border-radius: 10px;
-    font-size: 2rem;
 }
 
 .blog-box:hover {
@@ -92,11 +91,14 @@ a {
 }
 
 .blog-title {
+    display: inline-block;
     float: left;
+    font-size: 2rem;
 }
 
 .blog-date {
     float: right;
+    font-size: 1.5rem;
 }
 
 
