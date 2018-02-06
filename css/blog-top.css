@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background: #FFF url('../images/grandcanyon.jpg') no-repeat fixed left bottom;
+    background: #FFF;
     background-size: cover;
     color: #000;
     text-align: center;
