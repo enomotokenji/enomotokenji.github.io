@@ -91,12 +91,13 @@ a {
 }
 
 .blog-title {
-    display: inline-block;
+    width: 70%;
     float: left;
     font-size: 2rem;
 }
 
 .blog-date {
+    width: 30%;
     float: right;
     font-size: 1.5rem;
 }
