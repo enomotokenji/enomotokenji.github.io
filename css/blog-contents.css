@@ -86,7 +86,7 @@ a {
     border-radius: 10px;
 }
 
-.blog-box:hover {
+a.blog-box:hover {
     background: #f7f7f7;
 }
 
@@ -94,6 +94,7 @@ a {
     width: 70%;
     float: left;
     font-size: 2rem;
+    word-wrap: break-word;
 }
 
 .blog-date {
