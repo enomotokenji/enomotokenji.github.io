@@ -4,7 +4,8 @@ title: Blog
 ---
 
 {% for post in site.posts %}
-<a href="{{ post.url }}">{{ post.title }}</a>
+<p>{{ post.url }}"</p>
+<p>{{ post.title }}</p>
 {% endfor %}
 
 ---
