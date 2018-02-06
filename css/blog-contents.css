@@ -93,14 +93,14 @@ a {
 }
 
 .blog-title {
-    width: 80%;
+    width: 70%;
     float: left;
     font-size: 2rem;
     word-wrap: break-word;
 }
 
 .blog-date {
-    width: 20%;
+    width: 30%;
     float: right;
     text-align: right;
     font-size: 1.5rem;
