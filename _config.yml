@@ -1,4 +1,6 @@
-
+name: Kenji Enomoto
+email: kenji.enomoto.abc.123@gmail.com
+url: enomotokenji.github.io
 markdown: kramdown
 redcarpet:
     input: GFM
