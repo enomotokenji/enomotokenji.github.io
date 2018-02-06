@@ -7,8 +7,8 @@ title: Blog
 {% for post in site.posts %}
 <a class="blog-box" href="{{ post.url }}">
 <span class="blog-title">{{ post.title }}</span>
-<span class="blog-date">{{ post.date | date: "%B %e, %Y" }}</span>
+<em class="blog-date">{{ post.date | date: "%B %e, %Y" }}</em>
 </a>
 {% endfor %}
 
-aaaaaa
+
