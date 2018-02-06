@@ -36,9 +36,9 @@ a {
 #header .header-fix {
     position: fixed;
     top: 0px;
-	width: 100%;
-	height: 50px;
-	background: 000;
+    width: 100%;
+    height: 50px;
+    background: 000;
 }
 
 .blog-box {
