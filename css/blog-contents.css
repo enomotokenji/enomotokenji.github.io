@@ -48,10 +48,8 @@ a {
 }
 
 .blog-box {
-    position: relative;
     width: 768px;
     margin: auto;
-    margin-top: 10px;
     padding: 5px 10px;
     box-shadow: 0 0 4px gray;
 }
