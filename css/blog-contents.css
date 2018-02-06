@@ -75,7 +75,7 @@ a {
 }
 
 .blog-box {
-    /*display: inline-block;*/
+    display: inline-block;
     width: 90%;
     background: #FFF;
     margin-bottom: 5px;
