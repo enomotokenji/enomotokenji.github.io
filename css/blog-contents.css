@@ -41,6 +41,7 @@ a {
     background-color: #FFF;
     box-shadow: 0 2px 1px gray;
     font-size: 2rem;
+    z-index: 100;
 }
 
 .header-box {
