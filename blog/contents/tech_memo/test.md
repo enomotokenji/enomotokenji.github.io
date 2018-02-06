@@ -1,9 +1,4 @@
 
----
-layout: default
-title: テスト
----
-
 # テストです
 
 * a
