@@ -50,8 +50,8 @@ a {
     margin: auto;
     padding: 5px 10px;
     background-color: #FFF;
-    /*display: flex;
-    align-items: center;*/
+    display: flex;
+    align-items: center;
 }
 
 .header-item {
@@ -92,11 +92,11 @@ a {
 }
 
 .blog-title {
-    text-align: left;
+    float: left;
 }
 
 .blog-date {
-    text-align: right;
+    float: right;
 }
 
 
