@@ -79,10 +79,12 @@ a {
     width: 90%;
     background: #FFF;
     margin-bottom: 5px;
+    padding: 3px 3px;
     border: solid;
     border-width: 1px;
     border-color: #ebebeb;
     border-radius: 10px;
+    font-size: 2rem;
 }
 
 .blog-box:hover {
@@ -90,11 +92,11 @@ a {
 }
 
 .blog-title {
-    font-size: 2rem;
+    text-align: left;
 }
 
 .blog-date {
-
+    text-align: right;
 }
 
 
