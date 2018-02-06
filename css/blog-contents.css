@@ -75,7 +75,7 @@ a {
 }
 
 .blog-box {
-    display: inline-block;
+    /*display: inline-block;*/
     width: 90%;
     background: #FFF;
     margin-bottom: 5px;
@@ -84,6 +84,8 @@ a {
     border-width: 1px;
     border-color: #ebebeb;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
 }
 
 a.blog-box:hover {
@@ -94,7 +96,7 @@ a.blog-box:hover {
     width: 80%;
     float: left;
     font-size: 2rem;
-    word-wrap: break-word;
+    word-break: keep-all;
 }
 
 .blog-date {
