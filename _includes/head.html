@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 
 <head>
@@ -23,20 +23,6 @@
         ga('send', 'pageview');
 
     </script>
-</head> -->
+    {% if page.use_math == true %}{% include math.html %}{% endif %}
+</head>
 
-{% include head.html %}
-
-<body>
-    <header class='header-fix'>
-        <div class="header-box">
-            <a class="header-item" href='/'>{{ site.name }}</a>
-            <a class="header-item" href="/memo.html">Memo</a>
-        </div>
-    </header>
-    <div class='container'>
-        {{ content }}
-    </div>
-</body>
-
-</html>
