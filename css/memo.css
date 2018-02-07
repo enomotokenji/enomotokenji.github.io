@@ -22,13 +22,12 @@ a {
     color: inherit;
 }
 
-/*
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
-*/
+
 
 /* --------------------------------
  * parts
