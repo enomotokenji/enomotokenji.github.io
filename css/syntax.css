@@ -1,5 +1,5 @@
-.highlight table td { padding: 0; }
-.highlight table pre { margin: 50px; }
+.highlight table td { padding: 50px; }
+.highlight table pre { margin: 0; }
 .highlight .c, .highlight .cd {
   color: #75715e;
   font-style: italic;
