@@ -4,5 +4,5 @@ url: https://enomotokenji.github.io
 markdown: kramdown
 kramdown:
  input: GFM
-highlighter: rouge
+ syntax_highlighter: rouge
 
