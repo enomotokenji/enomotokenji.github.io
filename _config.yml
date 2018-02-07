@@ -2,5 +2,7 @@ name: Kenji Enomoto
 email: kenji.enomoto.abc.123@gmail.com
 url: https://enomotokenji.github.io
 markdown: kramdown
+kramdown:
+ input: GFM
 highlighter: rouge
 
