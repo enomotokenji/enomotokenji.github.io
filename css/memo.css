@@ -151,8 +151,8 @@ a {
         font-size: 1.3rem;
     }
     .header-fix {
-        height: 80px;
-        font-size: 3rem;
+        /*height: 80px;
+        font-size: 3rem;*/
     }
     .header-box {
         width: 90%
@@ -163,10 +163,10 @@ a {
         margin-top: 40px;
     }
     .blog-title {
-        font-size: 3rem;
+        /*font-size: 3rem;*/
     }
     .blog-date {
-        font-size: 2rem;
+        /*font-size: 2rem;*/
     }
     .blog-abst {
         font-size: 1.3rem;
