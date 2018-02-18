@@ -158,8 +158,8 @@ a {
         width: 90%
     }
     .container {
-        width: 90%;
-        margin: 0 5% 5px;
+        width: 100%;
+        margin: 0 0 5px;
         margin-top: 40px;
     }
     .blog-title {
