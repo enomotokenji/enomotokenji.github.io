@@ -20,5 +20,11 @@ title: Memo
 {% assign tag_names = tag_names | sort %}
 
 {% for tag_name in tag_names %}
-<p>{{ tag_name | capitalize | replace: "_", " " }}</p>
+<h2>{{ tag_name | capitalize | replace: "_", " " }}</h2>
+{% for post in site.tags[tag_name] %}
+<a class="blog-box" href="{{ post.url }}">
+<span class="blog-title">{{ post.title }}</span>
+<em class="blog-date">{{ post.date | date: "%B %e, %Y" }}</em>
+</a>
+{% endfor %}
 {% endfor %}
