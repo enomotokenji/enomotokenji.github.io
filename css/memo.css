@@ -146,7 +146,7 @@ a {
  * smart phone
  * -------------------------------- */
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     body {
         font-size: 1.3rem;
     }
