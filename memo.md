@@ -11,3 +11,6 @@ title: Memo
 </a>
 {% endfor %}
 
+{% for tag in site.tags %}
+<p>{{ tag }}</p>
+{% endfor %}
