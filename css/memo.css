@@ -148,11 +148,11 @@ a {
 
 @media (max-width: 1080px) {
     body {
-        font-size: 1.3rem;
+        font-size: 5rem;
     }
     .header-fix {
         height: 80px;
-        font-size: 3rem;
+        font-size: 5rem;
     }
     .header-box {
         width: 90%
@@ -160,13 +160,13 @@ a {
     .container {
         width: 90%;
         margin: 0 5% 5px;
-        margin-top: 40px;
+        margin-top: 80px;
     }
     .blog-title {
-        font-size: 3rem;
+        font-size: 5rem;
     }
     .blog-date {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .blog-abst {
         font-size: 1.3rem;
