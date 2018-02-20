@@ -11,6 +11,14 @@ title: Memo
 </a>
 {% endfor %}
 
-{% for tag in site.tags %}
-<p>{{ tag }}</p>
+{% assign tag_names = "" | split: "|"  %}
+
+{% for posts_by_tag in site.tags %}
+  {% assign tag_names = tag_names | push: posts_by_tag.first %}
+{% endfor %}
+
+{% assign tag_names = tag_names | sort %}
+
+{% for tag_name in tag_names %}
+<p>{{ tag_name | capitalize | replace: "_", " " }}</p>
 {% endfor %}
