@@ -11,13 +11,13 @@ title: Memo
 <em class="blog-date">{{ post.date | date: "%B %e, %Y" }}</em>
 </a>
 {% endfor %}
+{% endcomment %}
 
 {% assign tag_names = "" | split: "|"  %}
 
 {% for posts_by_tag in site.tags %}
   {% assign tag_names = tag_names | push: posts_by_tag.first %}
 {% endfor %}
-{% endcomment %}
 
 {% assign tag_names = tag_names | sort %}
 
