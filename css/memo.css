@@ -148,7 +148,7 @@ a {
 
 @media (max-width: 1080px) {
     body {
-        font-size: 4rem;
+        font-size: 2rem;
     }
     .header-fix {
         height: 80px;
