@@ -32,6 +32,6 @@ title: Memo
 {% endfor %}
 
 {% for collection in site.collections %}
-{{ collection.title }}
+{{ collection.label }}
 {{ collection.discription }}
 {% endfor %}
