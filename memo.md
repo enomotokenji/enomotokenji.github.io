@@ -30,3 +30,8 @@ title: Memo
 </a>
 {% endfor %}
 {% endfor %}
+
+{% for collection in site.collections %}
+{{ collection.title }}
+{{ collection.discription }}
+{% endfor %}
