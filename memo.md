@@ -32,6 +32,12 @@ title: Memo
 {% endfor %}
 
 {% for collection in site.collections %}
-{{ collection.label }}
+<h3>{{ collection.label }}</h3>
 {{ collection.discription }}
+{% for doc in collection.docs %}
+<a class="blog-box" href="{{ doc.url }}">
+<span class="blog-title">{{ doc.title }}</span>
+<em class="blog-date">{{ doc.date | date: "%B %e, %Y" }}</em>
+</a>
+{% endfor %}
 {% endfor %}
