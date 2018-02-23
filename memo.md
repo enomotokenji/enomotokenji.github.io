@@ -11,7 +11,6 @@ title: Memo
 <em class="blog-date">{{ post.date | date: "%B %e, %Y" }}</em>
 </a>
 {% endfor %}
-{% endcomment %}
 
 {% assign tag_names = "" | split: "|"  %}
 
@@ -30,9 +29,10 @@ title: Memo
 </a>
 {% endfor %}
 {% endfor %}
+{% endcomment %}
 
 {% for collection in site.collections %}
-<h3>{{ collection.label }}</h3>
+<h3>{{ collection.label | capitalize | replace: "_", " " }}</h3>
 {{ collection.discription }}
 {% for doc in collection.docs %}
 <a class="blog-box" href="{{ doc.url }}">
