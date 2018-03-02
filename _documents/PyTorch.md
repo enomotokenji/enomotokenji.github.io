@@ -40,3 +40,5 @@ Tensor (CxHxW)かnumpy ndarray (HxWxC)をPIL Imageに変換する．
 if isinstance(pic, torch.FloatTensor):
         pic = pic.mul(255).byte()
 ```
+
+### class `torch.nn.CrossEntropyLoss(weight=None, size_average=True, ignore_index=-100, reduce=True)`

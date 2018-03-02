@@ -13,6 +13,15 @@ tags: Library
 <list>.index(max(<list>))
 ```
 ---
+### リスト内に指定の値を持つ要素が存在するかどうか
+```python
+<value> in <list>
+# example
+list = ['a', 'b', 'c']
+'a' in list #-> True
+'d' in list #-> False
+```
+---
 ### 辞書型のソート
 ```python
 # key sort
@@ -21,4 +30,9 @@ sorted(<dic>.items(), key=lambda x: x[0])
 sorted(<dic>.items(), key=lambda x: x[1])
 # 辞書が入れ子になっている場合の子辞書のvalueソート
 sorted(<dic>.items(), key=lambda x: x[1][<sub_key>])
+```
+---
+### 辞書型のキー取得
+```python
+<dict>.keys() #-> list
 ```

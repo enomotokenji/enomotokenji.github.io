@@ -27,7 +27,7 @@ tags: Library
   \label{fig: example}
 \end{figure}
 ```
-
+---
 ### subcaption package
 1行目: 設定を明記しておかないとsubcaptionに上書きされる(?)
 2行目: 引用時図番号が括弧つきで表示されるオプション
@@ -36,4 +36,21 @@ tags: Library
 \usepackage[hang,small,bf]{caption}
 \usepackage[subrefformat=parens]{subcaption}
 \captionsetup{compatibility=false}
+```
+---
+### 数式内改行
+`&`で位置合わせ
+```
+\begin{equation}
+\begin{split}
+a&=b+c
+dd&=ee+ff
+\end{split}
+\end{equation}
+```
+---
+### スペース
+```
+\quad #1文字スペース
+\qquad #2文字スペース
 ```
