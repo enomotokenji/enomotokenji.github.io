@@ -36,3 +36,8 @@ sorted(<dic>.items(), key=lambda x: x[1][<sub_key>])
 ```python
 <dict>.keys() #-> list
 ```
+---
+### メモ
+*_CROP.png
+*_crop.png
+というファイルが共存できなかった．

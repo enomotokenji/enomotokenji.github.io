@@ -13,3 +13,4 @@ tags: research
 * [英単語カウンター](http://tool.stabucky.com/word_counter.htm)
 * [Google翻訳](https://translate.google.co.jp/?hl=ja)
 * [Grammarly](https://app.grammarly.com/)
+* [例文検索エンジン](https://hypcol.marutank.net/ja/)
