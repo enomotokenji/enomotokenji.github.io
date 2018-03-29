@@ -37,6 +37,7 @@ title: Memo
 <span class="blog-title">{{ qiita.title }}</span>
 <em class="blog-date">{{ qiita.date | date: "%B %e, %Y" }}</em>
 </a>-->
+aa
 <h5>{{ qiita.title }}</h5>
 {% endfor %}
 
