@@ -8,10 +8,4 @@ collections:
     output: true
     discription: 諸々のドキュメントページはなんだか挙動が重い．また，メソッドを使うたびにメモしていけば自分に最適化されたドキュメント集ができるのではないかと思い，試験的に運用中．
 
-qiita:
-  loadshow:
-    title: 金曜ロードShow!の放送予定をLINEに通知
-    date: 2018-03-28
-    url: https://qiita.com/enoken/items/2a9700ad06c0614c6a3d
-
 

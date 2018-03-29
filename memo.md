@@ -32,7 +32,7 @@ title: Memo
 {% endfor %}
 
 <h3>Qiita</h3>
-{% for qiita in site.qiita %}
+{% for qiita in site.data.qiita %}
 <!--<a class="blog-box" href="{{ qiita.url }}">
 <span class="blog-title">{{ qiita.title }}</span>
 <em class="blog-date">{{ qiita.date | date: "%B %e, %Y" }}</em>
