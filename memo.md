@@ -4,7 +4,6 @@ title: Memo
 ---
 
 ## Memo
-{% comment %}
 {% for post in site.posts %}
 <a class="blog-box" href="{{ post.url }}">
 <span class="blog-title">{{ post.title }}</span>
@@ -29,7 +28,6 @@ title: Memo
 </a>
 {% endfor %}
 {% endfor %}
-{% endcomment %}
 
 <!--
 {% for collection in site.collections %}
