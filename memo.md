@@ -31,6 +31,14 @@ title: Memo
 {% endfor %}
 {% endfor %}
 
+<h3>Qiita</h3>
+{% for qiita in site.qiita %}
+<a class="blog-box" href="{{ qiita.url }}">
+<span class="blog-title">{{ qiita.title }}</span>
+<em class="blog-date">{{ qiita.date | date: "%B %e, %Y" }}</em>
+</a>
+{% endfor %}
+
 <!--
 {% for collection in site.collections %}
 <h3>{{ collection.label | capitalize | replace: "_", " " }}</h3>
