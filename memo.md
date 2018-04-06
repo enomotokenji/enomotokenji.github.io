@@ -39,7 +39,7 @@ title: Memo
 </a>
 {% endfor %}
 
-
+<!--
 {% for collection in site.collections %}
 <h3>{{ collection.label | capitalize | replace: "_", " " }}</h3>
 {{ collection.discription }}
@@ -50,3 +50,4 @@ title: Memo
 </a>
 {% endfor %}
 {% endfor %}
+-->
