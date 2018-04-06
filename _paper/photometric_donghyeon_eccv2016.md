@@ -2,6 +2,7 @@
 layout: post
 title: Photometric Stereo under Non-uniform Light Intensities and Exposures
 date: 2018-04-05
+use_math: true
 tags: Paper
 ---
 
