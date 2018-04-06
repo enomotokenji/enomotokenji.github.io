@@ -4,8 +4,8 @@ url: https://enomotokenji.github.io
 markdown: kramdown
 
 collections:
-  documents:
+  paper:
     output: true
-    discription: 諸々のドキュメントページはなんだか挙動が重い．また，メソッドを使うたびにメモしていけば自分に最適化されたドキュメント集ができるのではないかと思い，試験的に運用中．
+    #discription: 諸々のドキュメントページはなんだか挙動が重い．また，メソッドを使うたびにメモしていけば自分に最適化されたドキュメント集ができるのではないかと思い，試験的に運用中．
 
 
