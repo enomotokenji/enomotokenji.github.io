@@ -88,6 +88,7 @@ a {
     border-radius: 10px;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .blog-box:hover {
