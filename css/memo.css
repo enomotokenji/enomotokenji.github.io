@@ -168,12 +168,12 @@ a {
         margin-top: 50px;
     }
     .blog-title {
-        font-size: 2rem;
-    }
-    .blog-date {
         font-size: 1.5rem;
     }
+    .blog-date {
+        font-size: 1rem;
+    }
     .blog-abst {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 }
