@@ -13,10 +13,10 @@ tags: research
 
 ![](/images/post-images/2018-04-08-figure1.png)
 
-私は論文管理には[Papers](https://www.readcube.com/)を使っています．（PapersはReadCubeに統合される予定らしい）
+論文管理には[Papers](https://www.readcube.com/)を使っています．（PapersはReadCubeに統合される予定らしい）
 自分の好きな粒度で分野ごとにディレクトリを作成して，論文を管理しています（`Field/Paper`）．
 ただし，自分の研究に関連する分野は`Research/Field/Paper`としています．
-基本的にiPad+Apple pencilで論文を読んでいます．
+基本的にiPad+Apple pencilで論文に手書きメモを加えながら読んでいます．
 一応，論文管理アプリの代表であるMendeleyと比較したPapersの利点と欠点を下に書いておきます．[<sup>2</sup>](#脚注)
 
 ## プロジェクト管理
@@ -57,8 +57,7 @@ tags: research
 Dustin Tran氏はディスカッション時のホワイトボードの写真や，日々出てきたアイデアを書いておいておくそうです．
 
 `src/`には全てのコードを入れておきます．
-`src/`直下には直接実行可能なコードのみをおいておきます．
-その他のコードは`codebase/`以下に入れておきます．
+`src/`直下には直接実行可能なコードのみをおいておき，その他のコードは`codebase/`以下に入れておきます．
 `checkpoints/`には学習済みモデル，`log/`には学習のログ，`out/`にはローカル環境で確認したい結果を全て入れておきます．
 `checkpoints/`や`out/`はサイズが大きくなることが予想されるので`.gitignore`に記述しておきます．
 `.editerConfig`を設定しておくと編集環境による差異を吸収できます．
