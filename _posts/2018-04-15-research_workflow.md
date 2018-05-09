@@ -6,7 +6,8 @@ tags: research
 ---
 
 研究を行うにあたってサーベイから実装，実験，論文執筆までの効率的なワークフローを確立することは非常に重要です．
-このポストは自身の研究ワークフローを紹介し，誰かのためになればいいですという大義名分とともに，もっといい方法があれば教えてほしいという下心もあります．
+このポストは自身の研究ワークフローを紹介し，誰かのためになればいいですという大義名分とともに，もっといい方法があれば教えてほしいという下心もあります．  
+一番下に2018年4月に名古屋CV・PRML勉強会で発表したときの資料もあります．  
 私のワークフローはDustin Tran氏のワークフローを参考にしています．[<sup>1</sup>](#脚注)
 
 ## 論文管理
@@ -54,7 +55,7 @@ tags: research
 `doc/`には論文執筆に必要なファイルを全て入れておきます．
 
 `etc/`には`doc/`や`src/`には入らないファイルを全て入れておきます．
-Dustin Tran氏はディスカッション時のホワイトボードの写真や，日々出てきたアイデアを書いておいておくそうです．
+Dustin Tran氏はディスカッション時のホワイトボードの写真や，日々出てきたアイデアを書いてあるファイルをおいておくそうです．
 
 `src/`には全てのコードを入れておきます．
 `src/`直下には直接実行可能なコードのみをおいておき，その他のコードは`codebase/`以下に入れておきます．
@@ -69,12 +70,12 @@ Dustin Tran氏はディスカッション時のホワイトボードの写真や
 以下では，遠隔のサーバ上でプログラムを走らせることを前提としています．
 
 まず，コードはローカル環境で編集します．
-サーバで実行する段階になったら，`rsync`コマンドでGitで管理していないファイルも含めて全てサーバに送ります(サーバとローカルで`.git/`を共有しないとGit管理がめちゃくちゃになります）．
+サーバで実行する段階になったら，`rsync`コマンドでGit管理していないファイルも含めて全てサーバに送ります(サーバとローカルで`.git/`を共有しないとGit管理がめちゃくちゃになります）．
 サーバ・ローカル間のファイル共有でターミナルを頻繁に使うので，エディタは統合ターミナルがあるものがおすすめです（私はVisual Studio Codeを使っています）．
-コードをサーバに送ったら，サーバに接続し，`tmux`上でプログラムを走らせます．[<sup>3</sup>](#脚注)
+コードをサーバに送ったら，サーバに接続し`tmux`上でプログラムを走らせます．[<sup>3</sup>](#脚注)
 
 ハイパーパラメータが存在する場合は極力プログラム実行時にオプションで指定できるようにしておきます．
-`argparse`が便利です．
+Pythonの`argparse`モジュールが便利です．
 ハイパーパラメータとしてバッチサイズと学習率が存在し，
 ```
 python script1.py --batch_size=256 --lr=1e-4
@@ -122,3 +123,5 @@ To be added
 <sup>3</sup> [おすすめtmux設定](https://github.com/gpakosz/.tmux)
 
 <sup>4</sup> Comet.mlの導入コストは非常に少ないです．まだローンチされたばかりのサービスらしくバグも多いですが，個人的に期待しているサービスの１つです．
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/f0lScHZOFQ3zAY" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/enoken/cvprml-20180421" title="研究ワークフロー@名古屋CV・PRML勉強会 2018-04-21" target="_blank">研究ワークフロー@名古屋CV・PRML勉強会 2018-04-21</a> </strong> from <strong><a href="https://www.slideshare.net/enoken" target="_blank">enoken</a></strong> </div>
