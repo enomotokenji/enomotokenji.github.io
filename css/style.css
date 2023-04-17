@@ -226,7 +226,7 @@ a {
  * -------------------------------- */
 
 .bio {
-    padding: 50px 30px;
+    padding: 50px 0 30px;
     background-color: #fff;
     /* color: #333; */
 }
@@ -237,7 +237,7 @@ a {
     margin: 30px 0;
     text-align: left;
     font-size: 1.6rem;
-    line-height: 2.5;
+    /* line-height: 2.5; */
 }
 
 .edu-text {
@@ -255,7 +255,7 @@ a {
 
 .pub {
     /* background-color: #383634; */
-    padding: 50px 0;
+    padding: 50px 0 30px;
 }
 
 .pub-wrapper {
@@ -452,7 +452,10 @@ a {
     }
     .site-title {
         margin-top: 35px;
-        font-size: 5rem;
+        font-size: 4rem;
+    }
+    .site-description {
+        font-size: 1.5rem;
     }
     /* --- about --- */
     .bio-text {
