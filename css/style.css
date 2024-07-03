@@ -233,9 +233,9 @@ a {
 
 .bio-text {
     display: inline-block;
-    width: 80%;
-    margin: 30px 0;
-    text-align: left;
+    width: 60%;
+    /* margin: 30px 0; */
+    text-align: center;
     font-size: 1.6rem;
     /* line-height: 2.5; */
 }
@@ -260,7 +260,7 @@ a {
 
 .pub-wrapper {
     display: table;
-    width: 80%;
+    width: 50%;
     margin-top: 20px;
     margin-left: 10%;
     margin-right: 10%;
@@ -339,7 +339,8 @@ a {
 
 .pub-d-description {
     display: block;
-    /* margin-top: 0; */
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: left;
     font-size: 1.5rem;
 }
