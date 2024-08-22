@@ -17,6 +17,9 @@ body {
     text-align: center;
     font-size: 1.4rem;
     font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
 }
 
 a {
@@ -61,11 +64,11 @@ a {
 
 .sub-heading {
     position: relative;
-    display: inline-block;
+    display: block;
     width: 80%;
-    margin: 20px 0 10px;
+    max-width: 1000px;
+    margin: 20px auto 40px; /* 上部マージンを20pxに設定 */
     padding-bottom: 10px;
-    letter-spacing: 2px;
     text-align: left;
     font-size: 3rem;
 }
@@ -73,10 +76,24 @@ a {
 .sub-heading::before {
     content: '';
     position: absolute;
-    right: 0;
     bottom: 0;
     left: 0;
-    border-bottom: 1px solid #999;
+    width: 100%;
+    height: 1px;
+    background-color: #999;
+}
+
+.edu-text,
+.work-text,
+.pub-wrapper {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto 60px; /* 下部マージンを60pxに設定 */
+    padding: 0;
+}
+
+.pub-wrapper:last-child {
+    margin-bottom: 0; /* 最後のセクションの下部マージンを削除 */
 }
 
 .button {
@@ -240,12 +257,65 @@ a {
     /* line-height: 2.5; */
 }
 
-.edu-text {
+.edu-text,
+.work-text {
     width: 80%;
-    margin: 0 10% 0;
-    text-align: left;
-    font-size: 1.6rem;
-    line-height: 1.5;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+}
+
+.edu-text p,
+.work-text p {
+    margin-bottom: 15px; /* 項目間の余白 */
+    text-align: left; /* 左揃えを明示的に指定 */
+    line-height: 1.4; /* 行間を調整 */
+}
+
+.edu-title,
+.work-title {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2px; /* タイトルと期間の間のスペースを小さく */
+}
+
+.edu-period,
+.work-period {
+    display: block;
+}
+
+.edu-text p:last-child,
+.work-text p:last-child {
+    margin-bottom: 0; /* 最後の項目の下部マージンを削除 */
+}
+
+@media (max-width: 768px) {
+    .edu-text p,
+    .work-text p {
+        margin-bottom: 12px; /* 小さい画面での項目間の余白を少し縮小 */
+    }
+
+    .edu-title,
+    .work-title {
+        margin-bottom: 1px; /* 小さい画面でのタイトルと期間の間のスペースをさらに小さく */
+    }
+}
+
+@media (max-width: 480px) {
+    .edu-text,
+    .work-text {
+        width: 95%;
+    }
+}
+
+.highlight-text {
+    color: #ff0000;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
 }
 
 
@@ -259,12 +329,20 @@ a {
 }
 
 .pub-wrapper {
-    display: table;
-    width: 100%;
-    margin-top: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
-    table-layout: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.pub-item {
+    background-color: #f8f8f8;
+    padding: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 1.2rem;
 }
 
 .pub-box {
@@ -310,25 +388,33 @@ a {
 }
 
 .pub-title {
-    font-size: 2rem;
-    margin-bottom: 10px;
+    font-size: 1.4rem;
+    margin: 0 0 0.6rem 0;
+    text-align: left;
+    font-weight: bold;
 }
 
 .pub-detail {
     text-align: left;
     font-size: 1.3rem;
-    margin-bottom: 5px;
+    margin-bottom: 0.4rem;
 }
 
 .pub-author {
+    color: #000000;
+    margin: 0 0 0.4rem 0;
     text-align: left;
-    color: #ea4335;
-    margin-bottom: 5px;
+    font-size: 1.4rem;
+}
+
+.pub-author strong {
+    font-weight: bold;
 }
 
 .pub-conference {
     text-align: left;
-    /* color: #4285f4; */
+    margin: 0 0 0.4rem 0;
+    font-size: 1.3rem;
 }
 
 .pub-text .button {
@@ -352,6 +438,26 @@ a {
 
 .link:hover {
     /* text-decoration: underline; */
+}
+
+.pub-links {
+    margin: 0.4rem 0 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+}
+
+.pub-links a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+.pub-links a:last-child {
+    margin-right: 0;
 }
 
 
@@ -432,8 +538,12 @@ a {
         margin-top: 20px;
         font-size: 2.5rem;
     }
-    .sub-heading {
-        font-size: 1.8rem;
+    .sub-heading,
+    .edu-text,
+    .work-text,
+    .pub-wrapper {
+        width: 90%;
+        font-size: 2.5rem;
     }
     .button:hover {
         opacity: 1;
@@ -461,10 +571,9 @@ a {
     /* --- about --- */
     .bio-text {
         font-size: 1.4rem;
-        /line-height: 1.8;
     }
-    .edu-text {
-        margin: 30px 0;
+    .edu-text,
+    .work-text {
         font-size: 1.4rem;
     }
     /* --- works --- */
@@ -485,18 +594,34 @@ a {
         left: auto;
         width: 100%;
     }
-    .pub-title {
-        font-size: 1.8rem;
+    .pub-title,
+    .pub-author {
+        font-size: 1.2rem;
     }
-    /* --- skills --- */
-    .skills-wrapper,
-    .skill-box {
-        display: block;
+    .pub-conference,
+    .pub-links {
+        font-size: 1.1rem;
     }
-    .skill-box {
-        margin: 40px auto;
+}
+
+@media (max-width: 480px) {
+    .sub-heading,
+    .edu-text,
+    .work-text,
+    .pub-wrapper {
+        width: 95%;
     }
-    .skill-text {
-        margin: 0;
+    
+    .sub-heading {
+        font-size: 2rem;
+        margin: 10px auto 20px;
     }
+}
+
+.sub-heading,
+.edu-text,
+.work-text {
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
 }
