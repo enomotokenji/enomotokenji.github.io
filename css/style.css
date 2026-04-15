@@ -178,6 +178,12 @@ a {
     margin: 25px 0 0;
 }
 
+.site-description-link a:not(:last-child)::after {
+    content: "|";
+    color: #999;
+    margin: 0 0.6rem;
+}
+
 .site-description-mail-address {
     margin-bottom: 0px;
     color: #d0d0d0;
@@ -452,12 +458,13 @@ a {
 .pub-links a {
     text-decoration: none;
     color: #007bff;
-    margin-right: 1rem;
     margin-bottom: 0.4rem;
 }
 
-.pub-links a:last-child {
-    margin-right: 0;
+.pub-links a:not(:last-child)::after {
+    content: "|";
+    color: #999;
+    margin: 0 0.6rem;
 }
 
 
