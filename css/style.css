@@ -178,10 +178,10 @@ a {
     margin: 25px 0 0;
 }
 
-.site-description-link a:not(:last-child)::after {
-    content: "|";
-    color: #999;
-    margin: 0 0.6rem;
+.site-description-link a:not(:last-child) {
+    border-right: 1px solid #999;
+    padding-right: 0.6rem;
+    margin-right: 0.6rem;
 }
 
 .site-description-mail-address {
@@ -461,10 +461,10 @@ a {
     margin-bottom: 0.4rem;
 }
 
-.pub-links a:not(:last-child)::after {
-    content: "|";
-    color: #999;
-    margin: 0 0.6rem;
+.pub-links a:not(:last-child) {
+    border-right: 1px solid #999;
+    padding-right: 0.6rem;
+    margin-right: 0.6rem;
 }
 
 
